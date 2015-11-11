@@ -28,9 +28,6 @@ define(function (require) {
 
     }
 
-    Dashboard.prototype.render = function() {
-
-    };
 
     return Dashboard;
 

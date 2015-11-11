@@ -1,4 +1,4 @@
-define(function(require) {
+define(function() {
 
     function IssueTracker(options) {
         this.collection = options.collection;
