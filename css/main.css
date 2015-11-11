@@ -1,0 +1,52 @@
+h1 {
+    color: #01adef;
+}
+
+.filter-component {
+    padding: 16px;
+    border-top: 1px solid #e0e1e1;
+    border-bottom: 1px solid #e0e1e1;
+}
+
+.filter-component label {
+    color: #556373;
+}
+
+.issue-tracker-component .issue {
+    border-bottom: 1px solid #e0e1e1;
+}
+
+.issue-tracker-component .issue:hover {
+    background: #F0F5F9;
+}
+
+.issue-tracker-component span.issue-data {
+    cursor: pointer;
+
+}
+
+.issue-tracker-component span.issue-data:hover {
+    text-decoration: underline
+}
+
+.issue-tracker-component span.issue-label {
+    color: #556373;
+    font-weight: bold;
+}
+
+.issue-tracker-component span.issue-id {
+    cursor: default;
+}
+
+.issue-tracker-component {
+    margin-top: 32px;
+}
+
+.issue-tracker-component .header {
+    color: #556373;
+    font-weight: bold;
+    padding-left: 5px;
+    border-bottom: 1px solid #e0e1e1;
+}
+
+

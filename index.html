@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Issue Tracker</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <script data-main="scripts/main" src="scripts/lib/require.js"></script>
+    <script src="scripts/lib/jquery-2.1.4.min.js"></script>
+    <script src="scripts/lib/underscore.js"></script>
+    <script src="scripts/lib/EventDispatcher.js"></script>
+</head>
+<body>
+
+
+<div class="container issue-tracker-app">
+    <h1>Issue Tracker</h1>
+    <div id="filter" class="filter-component">
+        <form class="form-inline">
+            <div class="form-group">
+                <label for="filter-description">Description</label>
+                <input type="text" class="form-control" name="filter-description" id="filter-description" placeholder="Start typing...">
+            </div>
+
+            <div class="form-group">
+                <label for="filter-category">Category</label>
+                <select class="form-control" name="filter-category" id="filter-category"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="filter-assignee">Assignee</label>
+                <select class="form-control" name="filter-assignee" id="filter-assignee"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="filter-project">Project</label>
+                <select class="form-control" name="filter-project" id="filter-project"></select>
+            </div>
+        </form>
+    </div>
+    <div id="issue-tracker-list" class="issue-tracker-component">
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
