@@ -1,3 +1,16 @@
+IssueTracker lists the current issues related to several projects.
+Each issue has:
+
+- an ID
+- a description
+- a category
+- a project
+- an assignee
+
+It is possible to filter the issues using the filter's controls (e.g. by category or searching in the description) or by doing an **inline** filtering by clicking on one of the issue's field.
+
+For example, when clicking on the category "Front End", the issue tracker filters the list to only issues of category "Front End", and also the controls is updated to reflect this.
+
 ## Components
 
 - **Dashboard**: it creates the **IssueCollection** object and then it calls the the *fetch's* collection method. When the fetch is completed, it creates the **IssueTracker** and the **FilterComponent** object passing as dependency the collection
